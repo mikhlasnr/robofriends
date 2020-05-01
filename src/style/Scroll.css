@@ -1,0 +1,13 @@
+.scrollBar {
+    overflow-y: scroll;
+    height: calc(100vh - 200px);
+    width: 90%;
+    margin: 0 auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.scrollBar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
