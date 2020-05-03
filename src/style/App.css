@@ -10,3 +10,13 @@ h1 {
     font-weight: 200;
     color: #0ccac4;
 }
+
+h1.title {
+    font-size: 48px;
+}
+
+@media screen and (max-width: 600px) {
+    h1.title {
+        font-size: 30px;
+    }
+}
